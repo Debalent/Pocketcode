@@ -64,7 +64,7 @@ fun App() {
                                     when (currentScreen) {
                                         "editor" -> CodeEditorScreen()
                                         "settings" -> SettingsScreen(onBack = { currentScreen = "editor" })
-                                        "git" -> GitPanel()
+                                        "git" -> GitPanelScreen()
                                     }
                                 }
                                 
@@ -247,13 +247,6 @@ fun SettingsScreen(onBack: () -> Unit) {
         Spacer(modifier = Modifier.height(32.dp))
         Text("Theme", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
         Text("Dark (Energetic)", color = Color.White, modifier = Modifier.padding(top = 8.dp))
-    }
-}
-
-@Composable
-fun GitPanel() {
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Source Control", style = MaterialTheme.typography.titleLarge, color = Color.White)
     }
 }
 
