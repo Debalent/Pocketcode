@@ -1,45 +1,75 @@
-# PocketCode 🚀
+# PocketCode
 
-PocketCode is a modern, energetic, and responsive cross-platform mobile IDE built with **Kotlin Multiplatform** and **Compose Multiplatform**. It's designed for developers who want a premium coding experience on the go.
+PocketCode is a cross-platform mobile IDE experience built with Kotlin Multiplatform and Compose Multiplatform. It brings project browsing, code editing, and source control into a fast, touch-friendly interface for Android and iOS.
 
-## 🎨 Design Philosophy
+The goal is simple: make coding on mobile devices feel premium, focused, and genuinely enjoyable.
 
-PocketCode breaks away from boring, corporate IDE designs. It features an **Energetic Dark Theme** with high contrast and smooth micro-interactions.
+## What PocketCode Is
 
-- **Primary:** #FF6B00 (Electric Orange)
-- **Secondary:** #1A1A1A (Deep Charcoal)
-- **Accent:** #00C4FF (Neon Cyan)
-- **Background:** #0D0D0D (Rich Black)
+PocketCode is a mobile-first development workspace concept with:
 
-## 🧩 Features
+- Project selection and quick re-entry into active work
+- File tree navigation for source and config files
+- Multi-tab editor workflows
+- Built-in Git staging and commit flows
+- Offline status awareness for pending pushes
 
-- **Responsive Layout:** Optimized for both Android and iOS.
-- **File System:** Intuitive file tree sidebar with animated expand/collapse.
-- **Editor:** Multi-tab code editor with a premium feel.
-- **Git Integration:** Built-in Git panel for staging, committing, and pushing.
-- **Offline Ready:** Intelligent banners to keep you informed of your sync status.
+## Who It Is Designed For
 
-## 🛠️ Tech Stack
+PocketCode is designed for:
 
-- **Kotlin Multiplatform (KMP)**
-- **Compose Multiplatform**
-- **Material 3**
-- **Coroutines & Flow**
+- Developers who want to review, edit, and commit while away from a desktop setup
+- Kotlin Multiplatform teams building for Android and iOS
+- Indie makers and students who need lightweight, fast coding sessions
+- Engineers who value a bold visual style and responsive UI feedback
 
-## 🚀 Getting Started
+## What It Is Designed For
+
+PocketCode is optimized for short, high-value coding tasks on mobile:
+
+- Reviewing open changes and making targeted edits
+- Managing files and project structure quickly
+- Staging and committing small batches of work
+- Tracking offline progress and syncing later
+- Maintaining coding momentum during travel, meetings, or downtime
+
+## Design Philosophy
+
+PocketCode breaks away from rigid, corporate IDE patterns. It uses an energetic dark-forward visual style with high contrast, clear hierarchy, and smooth micro-interactions.
+
+- Primary: #FF6B00 (Electric Orange)
+- Secondary: #1A1A1A (Deep Charcoal)
+- Accent: #00C4FF (Neon Cyan)
+- Background: #0D0D0D (Rich Black)
+
+## Features
+
+- Responsive layout optimized for Android and iOS
+- File tree sidebar with animated expand and collapse
+- Multi-tab editor shell for fast context switching
+- Built-in Git panel for staging and committing
+- Offline banner support for pending push status
+
+## Tech Stack
+
+- Kotlin Multiplatform (KMP)
+- Compose Multiplatform
+- Material 3
+- Coroutines and Flow
+
+## Getting Started
 
 ### Prerequisites
 
-- Android Studio / IntelliJ IDEA
+- Android Studio or IntelliJ IDEA
 - Kotlin Multiplatform Mobile plugin
 - JDK 17+
 
 ### Running the App
 
-- **Android:** `./gradlew :composeApp:installDebug`
-- **iOS:** Open the `iosApp` folder in Xcode or run via Android Studio with the KMP plugin.
+- Android: ./gradlew :composeApp:installDebug
+- iOS: Run the shared Compose target from Android Studio or IntelliJ with KMP support.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
-
